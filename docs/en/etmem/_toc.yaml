@@ -1,0 +1,6 @@
+label: etmem User Guide
+isManual: true
+description: Expand memory capacity with etmem.
+sections:
+  - label: Using etmem
+    href: ./etmem_user_guide.md

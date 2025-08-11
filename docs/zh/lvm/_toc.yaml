@@ -1,0 +1,6 @@
+label: 配置和管理逻辑卷
+isManual: true
+description: 使用 LVM 管理硬盘
+sections:
+  - label: 使用 LVM 管理硬盘
+    href: ./managing_drives_through_lvm.md

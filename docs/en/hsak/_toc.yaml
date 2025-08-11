@@ -1,0 +1,12 @@
+label: HSAK Developer Guide
+isManual: true
+description: HSAK delivers a high-performance IO software stack optimized for new storage media, offering both high bandwidth and low latency.
+sections:
+  - label: Overview
+    href: ./hsak_developer_guide.md
+  - label: Development with HSAK
+    href: ./development_with_hsak.md
+  - label: HSAK Tool Usage
+    href: ./hsak_tool_usage.md
+  - label: HSAK C APIs
+    href: ./hsak_c_apis.md

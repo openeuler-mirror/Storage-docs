@@ -1,0 +1,6 @@
+label: etmem用户指南
+isManual: true
+description: 使用内存分级扩展技术 etmem 扩展内存容量
+sections:
+  - label: 使用etmem
+    href: ./etmem_user_guide.md
