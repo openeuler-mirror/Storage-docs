@@ -1,0 +1,10 @@
+label: GMEM用户指南
+isManual: true
+description: 提供异构互联内存的中心化管理
+sections:
+  - label: 概述
+    href: ./introduction_to_gmem.md
+  - label: 安装与部署
+    href: ./installation_and_deployment.md
+  - label: 使用方法
+    href: ./usage_instructions.md

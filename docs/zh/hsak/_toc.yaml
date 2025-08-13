@@ -1,0 +1,12 @@
+label: HSAK开发指南
+isManual: true
+description: HSAK 针对新型存储介质提供高带宽低时延的IO软件栈
+sections:
+  - label: 概述
+    href: ./hsak_developer_guide.md
+  - label: 使用HSAK开发应用程序
+    href: ./development_with_hsak.md
+  - label: HSAK工具使用说明
+    href: ./hsak_tool_usage.md
+  - label: HSAK接口说明
+    href: ./hsak_c_apis.md

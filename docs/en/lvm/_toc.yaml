@@ -1,0 +1,6 @@
+label: Logical Volume Configuration and Management
+isManual: true
+description: Use LVM to manage drives.
+sections:
+  - label: Managing Drives Through LVM
+    href: ./managing_drives_through_lvm.md

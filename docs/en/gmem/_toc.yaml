@@ -1,0 +1,10 @@
+label: GMEM User Guide
+isManual: true
+description: Centralized management for heterogeneous memory interconnections
+sections:
+  - label: Overview
+    href: ./introduction_to_gmem.md
+  - label: Installation and Deployment
+    href: ./installation_and_deployment.md
+  - label: Usage Instructions
+    href: ./usage_instructions.md
