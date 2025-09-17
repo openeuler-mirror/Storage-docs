@@ -1,8 +1,6 @@
 # Development with HSAK
 
-## Instructions
-
-### **nvme.conf.in** Configuration File
+## **nvme.conf.in** Configuration File
 
 By default, the HSAK configuration file is located in **/etc/spdk/nvme.conf.in**. You can modify the configuration file based on service requirements. The content of the configuration file is as follows:
 
@@ -28,14 +26,14 @@ By default, the HSAK configuration file is located in **/etc/spdk/nvme.conf.in**
 
 1. **BatchSize**: number of I/Os that can be submitted in batches. The default value is **8**, and the maximum value is **32**.
 
-### Header File Reference
+## Header File Reference
 
 HSAK provides two external header files. Include the two files when using HSAK for development.
 
 1. **bdev_rw.h**: defines the macros, enumerations, data structures, and APIs of the user-mode I/O operations on the data plane.
 2. **ublock.h**: defines macros, enumerations, data structures, and APIs for functions such as device management and information obtaining on the management plane.
 
-### Service Running
+## Service Running
 
 After software development and compilation, you must run the **setup.sh** script to rebind the NVMe drive driver to the user mode before running the software. The script is located in **/opt/spdk** by default.
 Run the following commands to change the drive driver's binding mode from kernel to user and reserve 1024 x 2 MB huge pages:
@@ -56,7 +54,7 @@ Run the following commands to restore the drive driver's mode from user to kerne
 0000:40:00.0 (8086 2701): uio_pci_generic -> nvme
 ```
 
-### User-Mode I/O Read and Write Scenarios
+## User-Mode I/O Read and Write Scenarios
 
 Call HSAK APIs in the following sequence to read and write service data through the user-mode I/O channel:
 
@@ -102,7 +100,7 @@ Call HSAK APIs in the following sequence to read and write service data through 
     | libstorage_close        | Closes a block device.                                                              |
     | libstorage_exit_module  | Exits the HSAK module.                                                              |
 
-### Drive Management Scenarios
+## Drive Management Scenarios
 
 HSAK contains a group of C APIs, which can be used to format drives and create and delete namespaces.
 
@@ -143,7 +141,7 @@ HSAK contains a group of C APIs, which can be used to format drives and create a
     | libstorage_low_level_format_nvm | Low-level formats an NVMe drive.                                                                                       |
     | libstorage_deallocate_block     | Notifies NVMe drives of blocks that can be freed for garbage collection.                                               |
 
-### Data-Plane Drive Information Query
+## Data-Plane Drive Information Query
 
 The I/O data plane of HSAK provides a group of C APIs for querying drive information. Upper-layer services can process service logic based on the queried information.
 
@@ -175,7 +173,7 @@ The I/O data plane of HSAK provides a group of C APIs for querying drive informa
     | libstorage_get_bdev_ns_info     | Obtains namespace information based on the device name.                  |
     | libstorage_get_ctrl_ns_info     | Obtains information about all namespaces based on the controller name.   |
 
-### Management-Plane Drive Information Query
+## Management-Plane Drive Information Query
 
 The management plane component Ublock of HSAK provides a group of C APIs for querying drive information on the management plane.
 
@@ -207,7 +205,7 @@ The management plane component Ublock of HSAK provides a group of C APIs for que
     | ublock_free_bdev             | Frees device resources.                                      |
     | ublock_fini                  | Destroys the Ublock module. This API destroys the Ublock module and internally created resources. This API must be used together with the Ublock initialization API. |
 
-### Log Management
+## Log Management
 
 HSAK logs are exported to **/var/log/messages** through syslog by default and managed by the rsyslog service of the OS. If a custom log directory is required, use rsyslog to configure the log directory.
 
