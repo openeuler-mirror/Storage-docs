@@ -1,0 +1,6 @@
+label: cma folio用户指南
+isManual: true
+description: 使用cma folio特性以减小TLB miss率
+sections:
+  - label: 使用cma folio
+    href: ./cma_folio_user_guide.md
