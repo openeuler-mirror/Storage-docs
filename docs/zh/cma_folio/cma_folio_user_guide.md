@@ -134,7 +134,7 @@ config CMA_FOLIO
 folio_cma=512M
 
 # 为指定节点预留（节点 0: 512M，节点 1: 1G）
-follio_cma=0:512M,1:1G
+folio_cma=0:512M,1:1G
 
 ```
 
