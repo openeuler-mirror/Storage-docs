@@ -134,7 +134,7 @@ Reserve CMA Folio memory via the `folio_cma=` kernel boot parameter:
 folio_cma=512M
 
 # Reserve for specific nodes (512 MB for Node 0, 1 GB for Node 1).
-follio_cma=0:512M,1:1G
+folio_cma=0:512M,1:1G
 
 ```
 
