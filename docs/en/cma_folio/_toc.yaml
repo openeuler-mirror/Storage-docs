@@ -1,0 +1,6 @@
+label: CMA Folio User Guide
+isManual: true
+description: Utilize the CMA Folio feature to reduce TLB misses.
+sections:
+  - label: CMA Folio User Guide
+    href: ./cma_folio_user_guide.md
