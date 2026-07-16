@@ -64,26 +64,13 @@ LVM是逻辑卷管理（Logical Volume Manager）的简称，它是Linux环境�
 > [!NOTE]说明
 > openEuler操作系统默认已安装LVM。可通过**rpm -qa | grep lvm2**命令查询，若打印信息中包含“lvm2”信息，则表示已安装LVM，可跳过本章节内容；若无任何打印信息，则表示未安装，可参考本章节内容进行安装。  
 
-1. 配置本地yum源，详细信息请参考[搭建repo服务器](../../administration/administrator/configuring-the-repo-server.md)。
-2. 清除缓存。
-
-    ```shell
-    dnf clean all
-    ```
-
-3. 创建缓存。
-
-    ```shell
-    dnf makecache
-    ```
-
-4. 在root权限下安装LVM。
+1. 在root权限下安装LVM。
 
     ```shell
     # dnf install lvm2
     ```
 
-5. 查看安装后的rpm包。
+2. 查看安装后的rpm包。
 
     ```shell
     rpm -qa | grep lvm2
