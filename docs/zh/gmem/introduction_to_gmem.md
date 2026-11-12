@@ -10,7 +10,7 @@ GMEM (Generalized Memory Management) 提供了异构互联内存的中心化管�
 
 ## 架构
 
-![GMEM-架构.png](images/GMEM-架构.png)  
+![GMEM 系统架构图，展示 CPU 与加速器通过统一虚拟地址空间管理异构内存](images/GMEM-架构.png)  
 
 ## 应用场景
 
