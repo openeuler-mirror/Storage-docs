@@ -1,3 +1,11 @@
+---
+description: Covers application development with HSAK, including global configuration parameters (ReactorMask, LogLevel, MemSize, MultiQ, E2eDiff, IoStat, RpcServer, NvmeCUSE), Nvme parameters, and bdev volume creation.
+keywords: [HSAK, application development, Nvme, bdev, ReactorMask, openEuler]
+changefreq: monthly
+author: Storage SIG
+priority: 0.7
+---
+
 # Development with HSAK
 
 ## **nvme.conf.in** Configuration File

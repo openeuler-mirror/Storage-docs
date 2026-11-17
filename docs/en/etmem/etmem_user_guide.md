@@ -1,3 +1,11 @@
+---
+description: etmem user guide covering the principles and usage of etmem tiered memory expansion technology, including installation, client and server configuration, and common operations for memory tiering and capacity expansion.
+keywords: [etmem, tiered memory, cold hot classification, memory expansion, openEuler]
+changefreq: monthly
+author: Storage SIG
+priority: 0.7
+---
+
 # etmem User Guide
 
 ## Introduction

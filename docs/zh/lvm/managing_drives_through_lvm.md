@@ -1,3 +1,11 @@
+---
+description: 介绍如何使用 LVM(逻辑卷管理器)管理硬盘驱动器:涵盖 LVM 基本术语、安装方法、物理卷/卷组/逻辑卷的创建、查看、修改、扩容、缩减和删除操作。
+keywords: [LVM, 逻辑卷管理, PV, VG, LV, 硬盘管理, openEuler]
+changefreq: monthly
+author: Storage SIG
+priority: 0.7
+---
+
 # 使用LVM管理硬盘
 
 <!-- TOC -->

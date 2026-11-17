@@ -1,3 +1,11 @@
+---
+description: 介绍 GMEM 的软硬件要求(鲲鹏 920 CPU、昇腾 910 处理器、openEuler 23.09)与安装步骤:准备文件、安装 GMEM、验证安装及卸载方法。
+keywords: [GMEM, 安装部署, 鲲鹏 920, 昇腾 910, openEuler]
+changefreq: monthly
+author: Storage SIG
+priority: 0.7
+---
+
 # 安装与部署
 
 本章介绍如何安装和部署GMEM。
@@ -18,7 +26,7 @@
 
 * 文件准备
 
-  [CANN社区版历史版本-昇腾社区 (hiascend.com)](https://www.hiascend.com/software/cann/community-history) 
+  [CANN社区版-昇腾社区 (hiascend.com)](https://www.hiascend.com/cann) 
 
   [固件与驱动-昇腾社区 (hiascend.com)](https://www.hiascend.com/zh/hardware/firmware-drivers/community?product=2&model=19&cann=6.0.1.alpha001&driver=1.0.18.alpha) 
 

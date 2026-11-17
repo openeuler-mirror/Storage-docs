@@ -1,3 +1,11 @@
+---
+description: Introduces the design and architecture of GMEM (Generalized Memory Management), which manages heterogeneous memory across CPUs and accelerators through a unified virtual address space, supporting memory overcommit and automatic HBM overcommit.
+keywords: [GMEM, heterogeneous memory, HBM, memory management, unified address space, openEuler]
+changefreq: monthly
+author: Storage SIG
+priority: 0.8
+---
+
 # Introduction to GMEM
 
 ## Introduction

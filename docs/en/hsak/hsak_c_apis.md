@@ -1,3 +1,11 @@
+---
+description: HSAK C API reference covering enums, structs, and functions from bdev_rw.h, libstorage_ns.h and other headers, for storage application developers.
+keywords: [HSAK, C API, reference, bdev, Nvme, storage development, openEuler]
+changefreq: monthly
+author: Storage SIG
+priority: 0.7
+---
+
 # C APIs
 
 ## Macro Definition and Enumeration

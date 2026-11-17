@@ -1,3 +1,11 @@
+---
+description: HSAK developer guide — HSAK is a high-performance storage IO engine built on open-source SPDK, providing a unified interface, enhanced IO data plane features, and comprehensive maintenance and testing tools. Covers source code, compilation, and getting started.
+keywords: [HSAK, developer guide, SPDK, storage engine, IO stack, openEuler]
+changefreq: monthly
+author: Storage SIG
+priority: 0.8
+---
+
 # HSAK Developer Guide
 
 ## Overview

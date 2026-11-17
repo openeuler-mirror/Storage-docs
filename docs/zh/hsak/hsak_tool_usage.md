@@ -1,3 +1,11 @@
+---
+description: HSAK 命令行工具使用说明:介绍 libstorage-list 命令的语法、参数(commands、device)与注意事项,用于枚举存储设备信息。
+keywords: [HSAK, 命令行工具, libstorage-list, 存储设备, openEuler]
+changefreq: monthly
+author: Storage SIG
+priority: 0.7
+---
+
 # HSAK 工具使用说明
 
 ## 命令行接口

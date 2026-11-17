@@ -1,3 +1,11 @@
+---
+description: 介绍 GMEM 的使用方法:通过 libgmem 用户态库的 mmap/munmap 等接口申请和释放异构内存,支持 MAP_PEER_SHARED 标志实现 2MB 对齐的虚拟地址空间。
+keywords: [GMEM, libgmem, mmap, 异构内存申请, MAP_PEER_SHARED, openEuler]
+changefreq: monthly
+author: Storage SIG
+priority: 0.7
+---
+
 # 使用说明
 
 ## 简介

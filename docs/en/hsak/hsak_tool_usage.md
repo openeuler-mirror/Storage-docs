@@ -1,3 +1,11 @@
+---
+description: HSAK command-line tool usage — covers the libstorage-list command syntax, parameters (commands, device), and precautions for enumerating storage device information.
+keywords: [HSAK, CLI, libstorage-list, storage device, openEuler]
+changefreq: monthly
+author: Storage SIG
+priority: 0.7
+---
+
 # Command-Line Interface
 
 ## Command for Querying Drive Information

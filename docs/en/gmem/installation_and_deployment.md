@@ -1,3 +1,11 @@
+---
+description: Describes the software and hardware requirements (Kunpeng 920 CPU, Ascend 910 processor, openEuler 23.09) and installation steps for GMEM — preparing files, installing GMEM, verifying the installation, and uninstalling.
+keywords: [GMEM, installation, deployment, Kunpeng 920, Ascend 910, openEuler]
+changefreq: monthly
+author: Storage SIG
+priority: 0.7
+---
+
 # Installation and Deployment
 
 This section describes how to install and deploy GMEM.
@@ -18,7 +26,7 @@ This section describes how to install and deploy GMEM.
 
 * Prepare files.
 
-  [CANN Community Version History - Ascend Community (hiascend.com)](https://www.hiascend.com/en/software/cann/community-history)
+  [CANN Community Version - Ascend Community (hiascend.com)](https://www.hiascend.com/eng/cann)
 
   [Firmware and Driver - Ascend Community (hiascend.com)](https://www.hiascend.com/en/hardware/firmware-drivers/community?product=2&model=19&cann=6.0.1.alpha001&driver=1.0.18.alpha)
 

@@ -1,3 +1,11 @@
+---
+description: etmem 用户指南:介绍 etmem 内存分层扩展技术的原理与使用,涵盖安装部署、客户端和服务端的配置方法及常用操作命令,帮助用户实现内存冷热分级并扩展内存容量。
+keywords: [etmem, 内存分层, 冷热分级, 内存扩展, openEuler]
+changefreq: monthly
+author: Storage SIG
+priority: 0.7
+---
+
 # etmem用户指南
 
 ## 介绍
