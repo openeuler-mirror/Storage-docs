@@ -1,3 +1,11 @@
+---
+description: Describes how to use GMEM through the libgmem user-space library — mmap and munmap interfaces for heterogeneous memory allocation and release, with the MAP_PEER_SHARED flag for 2MB-aligned virtual addresses.
+keywords: [GMEM, libgmem, mmap, heterogeneous memory, MAP_PEER_SHARED, openEuler]
+changefreq: monthly
+author: Storage SIG
+priority: 0.7
+---
+
 # Usage Instructions
 
 ## Introduction

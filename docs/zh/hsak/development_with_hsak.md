@@ -1,3 +1,11 @@
+---
+description: 介绍基于 HSAK 进行应用开发的要点:全局配置项(ReactorMask、LogLevel、MemSize 等)、Nvme 参数说明及 bdev 卷的创建与配置方法。
+keywords: [HSAK, 应用开发, Nvme, bdev, ReactorMask, openEuler]
+changefreq: monthly
+author: Storage SIG
+priority: 0.7
+---
+
 # HSAK 使用指南
 
 ## nvme.conf.in配置文件

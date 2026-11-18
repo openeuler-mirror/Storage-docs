@@ -1,3 +1,11 @@
+---
+description: Describes how to manage drives through LVM (Logical Volume Manager), covering basic terms, installation, and creating, viewing, modifying, extending, shrinking, and deleting physical volumes, volume groups, and logical volumes.
+keywords: [LVM, logical volume manager, PV, VG, LV, drive management, openEuler]
+changefreq: monthly
+author: Storage SIG
+priority: 0.7
+---
+
 # Managing Drives Through LVM
 
 <!-- TOC -->
@@ -64,7 +72,7 @@ When drives are managed using LVM, file systems are distributed on multiple driv
 > [!NOTE]NOTE  
 > The LVM has been installed on the openEuler OS by default. You can run the  **rpm -qa | grep lvm2**  command to check whether it is installed. If the command output contains "lvm2", the LVM has been installed. In this case, skip this section. If no information is output, the LVM is not installed. Install it by referring to this section.  
 
-1. Configure the local yum source. For details, see  [Configuring the Repo Server](../../administration/administrator/configuring-the-repo-server.md).
+1. Configure the local yum source. For details, see  [Configuring the Repo Server](https://docs.openeuler.org/en/docs/24.03_LTS/docs/Administration/configuring-the-repo-server.html).
 2. Clear the cache.
 
     ```bash

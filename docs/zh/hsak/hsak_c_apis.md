@@ -1,3 +1,11 @@
+---
+description: HSAK C 接口说明:涵盖 bdev_rw.h、libstorage_ns.h 等头文件中枚举、结构体和函数的详细定义,供存储应用开发者查阅。
+keywords: [HSAK, C 接口, API, bdev, Nvme, 存储开发, openEuler]
+changefreq: monthly
+author: Storage SIG
+priority: 0.7
+---
+
 # HSAK 接口说明
 
 ## C接口

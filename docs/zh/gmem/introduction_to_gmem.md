@@ -1,3 +1,11 @@
+---
+description: 介绍 GMEM(通用内存管理)的设计原理与系统架构:通过统一虚拟地址空间管理 CPU 与加速器的异构内存,支持内存超额申请和自动 HBM 超发,简化异构内存编程并提升性能。
+keywords: [GMEM, 异构内存, HBM, 内存管理, 统一地址空间, openEuler]
+changefreq: monthly
+author: Storage SIG
+priority: 0.8
+---
+
 # 认识GMEM
 
 ## 简介

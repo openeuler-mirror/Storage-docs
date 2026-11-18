@@ -1,3 +1,11 @@
+---
+description: HSAK 开发者指南:HSAK 是基于开源 SPDK 构建的高性能存储 IO 引擎,提供统一接口、增强 IO 数据面特性和完善的维护测试工具,本指南涵盖源码获取、编译和开发入门。
+keywords: [HSAK, 开发者指南, SPDK, 存储引擎, IO 栈, openEuler]
+changefreq: monthly
+author: Storage SIG
+priority: 0.8
+---
+
 # HSAK开发者指南
 
 ## 介绍
